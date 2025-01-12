@@ -1,0 +1,2 @@
+Squashed commit:
+- [poetry] downgrade version from 2.0.0
