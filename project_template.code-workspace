@@ -4,5 +4,7 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"pasteImage.path": "${projectRoot}/docs/src/_static/"
+	}
 }
