@@ -1,0 +1,22 @@
+[project]
+name = "project-template"
+version = "0.1.0"
+description = ""
+authors = [{ name = "Karl Han", email = "karl-han@iwktd.com" }]
+requires-python = "~=3.12"
+readme = "README.md"
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv.workspace]
+members = [
+    "docs",
+]
+
+[dependency-groups]
+dev = [
+    "esbonio>=0.16.5",
+]

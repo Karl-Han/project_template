@@ -1,0 +1,2 @@
+Squashed commit:
+- [docs] use uv and add fastai.
